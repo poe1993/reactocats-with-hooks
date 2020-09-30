@@ -12,7 +12,7 @@ function PageHeader() {
 }
 function Header() {
   return (
-    <div>
+    <div className="headerBackground">
       <header>
         <nav>
           <ul>

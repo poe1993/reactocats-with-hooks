@@ -14,16 +14,7 @@ html {
   height: 100%;
 }
 
-headerBackground {
-  background-color: rgba(255, 255, 255, 0.75);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  box-shadow: 0rem 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-headerBackground {
+.headerBackground {
   background-color: rgba(255, 255, 255, 0.75);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   box-shadow: 0rem 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
@@ -142,16 +133,6 @@ article ul {
 
 article li:first-child {
   color: #586069;
-}
-
-strong {
-  font-weight: 600;
-}
-
-strong:hover {
-  color: #0366d6;
-  text-decoration: underline;
-  text-decoration-color: #0366d6;
 }
 
 footer {
